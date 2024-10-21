@@ -1,4 +1,4 @@
-package com.wipro.bankofamerica.estore.serviceImpl;
+package com.wipro.bankofamerica.estore.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,10 +10,9 @@ import com.wipro.bankofamerica.estore.service.UserService;
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService {
-
+public class UserServiceImpl implements UserService{
 	
-	    @Autowired
+	 @Autowired
 	    private UserRepository userRepo;
 
 
@@ -47,5 +46,6 @@ public class UserServiceImpl implements UserService {
 	        return userRepo.findByUsername(username)
 	                .orElseThrow(() -> new RuntimeException("User not found"));
 	    }
+
 
 }

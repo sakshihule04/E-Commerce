@@ -16,12 +16,12 @@ import com.wipro.bankofamerica.estore.service.UserService;
 
 import java.util.List;
 import java.util.Map;
-//GS
+
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/user")
 public class UserController {
-	
-	    @Autowired
+
+	 @Autowired
 	    private UserService userService;
 
 	    @PostMapping("/login")
