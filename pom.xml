@@ -9,11 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wipro.bankofamerica.estore</groupId>
-	<artifactId>E-commerce1</artifactId>
+	<artifactId>E-Commerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>E-commerce1</name>
-	<description>This is the E Commerce System Project Based on Spring Boot</description>
+	<name>E-Commerce</name>
+	<description>This is the E-Commerce Project Based on Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -44,17 +43,6 @@
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.28</version> <!-- You can check for the latest version -->
-    <scope>provided</scope>
-</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
